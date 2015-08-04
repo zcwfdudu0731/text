@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/苏州eclipse/MyMusic/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="bule">#bb3D8CB8</color>
+    <color name="grey">#bb9D9C9C</color>
+    <color name="vifrification">#00000000</color>
+    <color name="white">#bbffffff</color>
+    <declare-styleable name="DragableLuncher"><attr format="integer" name="default_screen"/><attr format="string" name="cwd"/></declare-styleable>
+    <!-- From: file:/F:/苏州eclipse/MyMusic/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">MyMusic</string>
+    <string name="hello">Hello World, C_MusicPlayerActivity!</string>
+    <!-- From: file:/F:/苏州eclipse/MyMusic/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+    	<item name="android:windowFrame">@null</item>
+    	<item name="android:windowNoTitle">true</item> 
+    	<item name="android:windowBackground">@color/vifrification</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item> 
+          
+<!--         <item name="android:windowEnterAnimation">@anim/dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out</item> 	 -->
+        
+    </style>
+</resources>
